@@ -1,0 +1,758 @@
+*{
+    box-sizing: border-box;
+    font-family: "Domine", Arial, Helvetica, sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 1%;
+    border: none;
+}
+
+
+header{
+    width: 100%;
+}
+
+/* section, aside, article{ 
+    border: 1px solid green;
+ } */
+
+main{
+    height: auto;
+
+}
+
+.header-mid, .header-top, .header-bot{
+    float: left;
+    width: 100%;
+}
+
+/* header building top section */
+
+.top-sides{
+    width: 20%;
+    padding: 5px 0%;
+}
+
+.top-mid{
+    width: 60%;
+}
+
+.top-mid, .top-sides{
+    float: left;
+}
+
+.search{
+    height: 2.4rem;
+}
+
+.top-mid ul{
+    width: 50%;
+    margin: 6px 25%;
+    padding: 0;
+}
+
+/* .top-mid nav{ 
+    margin: 0 35%;
+    width: 75%;
+}*/
+
+.header-bot nav{
+    width: 100%;
+    height: auto;
+}
+
+
+.header-top a, .header-bot a{
+    text-decoration: none;
+    color: black;
+}
+
+.header-top ul>li{
+    text-transform: uppercase;
+    margin: 0 0%;
+    font-size: 1.15rem;
+    width: 18%;
+}
+
+.header-top a{
+    font-weight: 700;
+}
+
+.header-top ul>li, .header-bot ul>li {
+    list-style-type: none;
+    float: left;
+    text-align: center;
+}
+
+.subscribe{
+    color: white;
+    height: 35px;
+    width: 55%;
+    background-color:rgb(85, 123, 149);
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 8%;
+}
+
+.login{
+    color: white;
+    height: 35px;
+    width: 25%;
+    background-color:rgb(85, 123, 149);
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 10%;
+    margin-left: 3%;
+}
+
+.hamburger{
+    width: 6.5%;
+}
+
+.search, .hamburger{
+    margin: 0px 3.5%;
+}
+
+
+
+/* header building mid section */
+
+
+.nyt-logo, .date, .temp{
+    float: left;
+}
+
+.date, .temp{
+    width: 15%;
+}
+
+.temp{
+    text-align: right;
+    width: 15%;
+}
+
+.date span{
+    display: inline-block;
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+
+.nyt-logo{
+    width: 70%;
+    text-align: center;
+}
+
+.nyt-logo img{
+    height: 6rem;
+    width: 40%;
+}
+
+/* header bottom section */
+
+.header-bot ul>li{
+    font-size: 1.35rem;
+    width: 5%;
+    margin: 0;
+    font-weight: 600;
+}
+
+
+.header-bot{
+    border-bottom: 4.5px double black;
+    padding: 6px 0% 8px 0%;
+    border-top: 1px solid rgb(223, 223, 223);
+}
+
+.header-bot ul{
+    margin: 10px 1%;
+}
+
+
+
+
+/* main section */
+
+main, .main-top, .main-bot{
+    width: 100%;
+}
+
+.main-articles, .side-articles, .maintop-sidea, .maintop-sideb, .img-scrollb, .mainbot-sidea, .mainbot-sideb{
+    float: left;
+}
+
+.main-articles{
+    width: 70%;
+}
+
+.side-articles{
+    width: 30%;
+}
+
+.img-scrolla{
+    width: 100%;
+    background-image: url(../images/donbas.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    opacity: 0.90;
+
+}
+
+
+.img-scrollb{
+    width: 100%;
+}
+
+.img-scrollb img{
+    width: 100%;
+    height: 6.4rem;
+}
+
+
+.maintop-sidea, .mainbot-sidea{
+    width: 30%;
+}
+
+.maintop-sideb, .mainbot-sideb{
+    width: 70%;
+}
+
+.maintop-sidea section{
+    width: 100%;
+    float: left;
+}
+
+.mainbot-sidea h3{
+    text-transform: capitalize;
+}
+
+.main-bot{
+    clear:both;
+}
+
+.mainbot-sideb img{
+    width: 100%;
+    height: 50rem;
+}
+
+
+.mainbot-sideb span{
+    text-align: right;
+    display: block;
+    color: rgb(116, 116, 116);
+    font-size: 1.2rem;
+
+}
+
+/* aside sectioning */
+
+.side-top, .side-mid, .side-bot{
+    width: 100%;
+    float: left;
+}
+
+.side-mid article{
+    width: 50%;
+    float: left;
+}
+
+.side-topa, .side-topb{
+    width: 100%;
+    float: left;
+}
+
+.side-topa{
+    width: 100%;
+    background-image: url(../images/madrid.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.side-topa p{
+    text-align: right;
+    margin-top: 255px;
+    margin-right: 15px
+}
+
+
+
+.side-bot section{
+    width: 100%;
+    float: left;
+}
+
+.maintop-sidea h2{
+    font-size: 2.4rem;
+    line-height: 1.5;
+    font-weight: 700;
+    margin: 0;
+}
+
+.maintop-sidea h3{
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+
+.maintop-sidea p, .side-topb p, .mainbot-sidea p {
+    font-size: 1.7rem;
+    line-height: 1.25;
+    color: rgb(73, 73, 73);
+}
+
+.read {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    color: rgb(116, 116, 116);
+    display: block;
+    margin-bottom: 15px;
+}
+
+.briefing h4{
+    font-size: 1.555rem;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 1rem;
+}
+
+.briefing ul{
+    padding: 0px 4%;
+}
+
+.briefing li{
+    font-size: 1.45rem;
+    margin-bottom: 8px;
+}
+
+.img-scrolla p{
+    font-size: 1.55rem;
+    width: 45%;
+    margin-bottom: 400px;
+    margin-top: 4px;
+}
+
+.img-scrolla p>span{
+    font-weight: 700;
+    margin-right: 1%;
+}
+
+.img-scrolla p + span{
+    margin-top: 1px;
+    display: block;
+    font-size: 1.3rem;
+}
+
+.side-topb h2{
+    font-size: 2.4rem;
+    font-weight: 300;
+
+}
+
+.side-mid img{
+    width: 100%;
+}
+
+.side-mid h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.author{
+    font-size: 1.35rem;
+    text-transform: uppercase;
+    color: rgb(116, 116, 116);
+    font-weight: 700;
+}
+
+.side-bot h3{
+    font-size: 1.7rem;
+}
+
+.side-bot img{
+    float: right;
+}
+
+.author-img1{
+    width: 20%;
+    padding-top: 0px;
+    padding-right: 3%;
+}
+
+.author-img2{
+    width: 40%;
+    padding: 3%;
+}
+
+.side-bota h3{
+    width: 60%;
+}
+
+.side-botb h3{
+    width: 35%;
+}
+
+.same-heads{
+    font-size: 1.8rem;
+}
+
+.maintop-sidea, .maintop-sideb, .mainbot-sidea, .mainbot-sideb, header {
+    padding: 1%;
+}
+
+.side-top, .side-mid, .side-bot{
+    padding: 3%;
+}
+
+.side-mid article{
+    padding: 1%;
+}
+
+.side-bot h5{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 1px 0%;
+    border-top: 1px solid black;
+    padding-top: 15px;
+}
+
+.side-bota, .side-botb{
+    margin: 10px 0%;
+}
+
+.main-bot{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.side-articles{
+    border-left: 1px solid rgb(199, 199, 199);
+}
+
+.separate{
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.line{
+    border-right: 1px solid black;
+}
+
+
+.secret{
+    display: none;
+}
+
+
+
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1738px) {
+    html{
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width: 1397px) {
+    .header-bot li:nth-child(2n+2){
+        display: none;
+    }
+    .header-bot ul>li{
+        width: 10%;
+    }
+
+    .header-top ul>li{
+        width: 20%;
+    }
+
+    .top-mid ul {
+        width: 66%;
+        margin: 6px 17%;
+    }
+
+    .subscribe, .login {
+        font-size: 1.1rem;
+    }
+
+    .header-bot ul {
+        margin: 7px 0%;
+        margin-left: -4.5%;
+    }
+}
+
+@media screen and (max-width: 1205px) {
+    html{
+        font-size: 43.75%;
+    }
+    
+    
+}
+
+@media screen and (max-width: 1062px) {
+    .subscribe, .login {
+        font-size: 1rem;
+    }
+    
+}
+
+@media screen and (max-width: 1012px) {
+    .top-sides {
+        width: 22%
+    }
+
+    .subscribe {
+        width: 61%;
+    }
+
+    .login, .subscribe{
+        height: 30px;
+    }
+
+    .login {
+        width: 25%;
+        margin-left: 8%;
+    }
+
+    .top-mid {
+        width: 55%;
+
+    }
+
+    .nyt-logo img {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 879px) {
+    .top-sides {
+        width: 22%
+    }
+
+    .subscribe {
+        width: 61%;
+    }
+
+    .login, .subscribe{
+        height: 30px;
+    }
+
+    .login {
+        width: 25%;
+        margin-left: 8%;
+    }
+
+    .top-mid {
+        width: 55%;
+
+    }
+
+    .side-articles{
+        width: 100%;
+        border-left: none;
+    }
+
+    .side-bot{
+        display: none;
+    }
+
+    .main-articles {
+        width: 100%;
+    }
+
+    .date, .temp {
+        width: 22%;
+    }
+
+    .nyt-logo img {
+        width: 60%;
+    }
+
+    .maintop-sideb, .mainbot-sideb {
+        width: 60%;
+    }
+
+    .maintop-sidea, .mainbot-sidea {
+        width: 40%;
+    }
+
+    .nyt-logo {
+        width: 56%;
+    }
+
+    .side-topb h2 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .maintop-sidea p, .side-topb p, .mainbot-sidea p, .briefing li  {
+        font-size: 1.9rem;
+    }
+    .read {
+        font-size: 1.55rem;
+    }
+
+    .img-scrolla p {
+        font-size: 1.75rem;
+        width: 65%;
+        margin-bottom: 350px;
+    }
+
+    .img-scrolla p + span {
+        font-size: 1.5rem;
+    }
+
+    .mainbot-sideb span {
+        font-size: 1.4rem;
+    }
+
+    .side-mid h3 {
+        font-size: 1.75rem;
+
+    }
+
+    .side-topa p {
+        font-size: 1.5rem;
+        margin-top: 350px;
+    }
+
+    .same-heads {
+        font-size: 2rem;
+    }
+
+    .briefing h4 {
+        font-size: 1.75rem;
+    }
+
+    .nyt-logo img {
+        width: 70%;
+    }
+
+    .subscribe {
+        width: 65%;
+    }
+
+    .top-mid ul {
+        width: 90%;
+        margin: 6px 0%;
+    }
+
+    .header-top ul>li {
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 765px) {
+    .hide, .temp{
+        display: none;
+    }
+
+    .date{
+        display: none;
+
+    }
+
+    .secret{
+        display: block;
+        text-align: right;
+    }
+    
+    .secret span{
+        display: block;
+        font-size: 1.3rem;
+    }
+
+    .nyt-logo{
+    
+     width: 70%;
+     margin: 0px 15%;
+    
+    }
+
+}
+
+@media screen and (max-width: 670px) {
+    .maintop-sideb {
+        display: none;
+    }
+
+    .maintop-sidea {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .maintop-sideb {
+        display: none;
+    }
+
+    .maintop-sidea {
+        width: 100%;
+    }
+
+    .secret span{
+        font-size: 1.2rem;
+    }
+
+}
+
+@media screen and (max-width: 553px) {
+    .secret span{
+        font-size: 1.1rem;
+    }
+
+    .hideli{
+        display: none;
+    }
+
+    .header-bot ul>li {
+        width: 19%;
+    }
+
+    .header-top ul>li {
+        font-size: .85rem;
+    }
+
+}
+
+@media screen and (max-width: 508px) {
+    .secret span{
+        font-size: 1rem;
+    }
+
+    .mainbot-sideb {
+        display: none;
+    }
+
+    .mainbot-sidea {
+        width: 100%;
+    }
+
+}
+
